@@ -36,4 +36,7 @@ const YY = year % 100;
 const MM = month;
 const DD = day;
 
+let daysOfWeek= ((CC/4)-2*CC-1)+(5*YY/4)+(26*(MM+1)/10)+DD;
+
+
 });   
