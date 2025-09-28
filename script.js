@@ -31,5 +31,9 @@ if (!gender){
     return;
 }
 
+const CC = Math.floor(year / 100);
+const YY = year % 100;
+const MM = month;
+const DD = day;
 
 });   
