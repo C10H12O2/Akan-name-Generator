@@ -25,5 +25,11 @@ if (month<1 || month>12){
     return;
 }
 
+if (!gender){
+    resultDiv.style.display = "block";
+    resultDiv.innerHTML = " Please pick a gender.";
+    return;
+}
+
 
 });   
