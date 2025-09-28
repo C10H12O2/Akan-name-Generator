@@ -1,6 +1,6 @@
 const akanNames = {
-    male: ["Kwasi, Kwadwo, Kwabena, Kwaku, Yaw, Kofi, Kwame"],
-    female: ["Akosua, Adwoa, Abenaa, Akua, Yaa, Afua, Ama"]
+    male: ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"],
+    female: ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]
 };
 
 const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
@@ -37,6 +37,9 @@ const MM = month;
 const DD = day;
 
 let daysOfWeek= ((CC/4)-2*CC-1)+(5*YY/4)+(26*(MM+1)/10)+DD;
+if (d < 0) d += 7;
 
+const akanName = akanNames[gender][d];
+const dayName = daysOfWeek[d];
 
 });   
