@@ -19,4 +19,11 @@ if (day<1 || day>31){
     return;
 }
 
+if (month<1 || month>12){
+    resultDiv.style.display = "block";
+    resultDiv.innerHTML = " Please enter a month thats between 1 and 12.";
+    return;
+}
+
+
 });   
