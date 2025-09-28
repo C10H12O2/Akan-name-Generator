@@ -13,4 +13,10 @@ const year = parseInt(document.getElementById("year").value);
 const gender = document.getElementById("gender").value;
 const resultDiv = document.getElementById("result");
 
+if (day<1 || day>31){
+    resultDiv.style.display = "block";
+    resultDiv.innerHTML = " Please enter a day that's between 1 and 31.";
+    return;
+}
+
 });   
