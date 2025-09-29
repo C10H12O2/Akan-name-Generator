@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://i.pinimg.com/736x/cb/32/98/cb3298600fad2cfb15e373551a1548ec.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+#container {
+    background-color: #5b58588f;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
