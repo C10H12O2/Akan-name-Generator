@@ -13,5 +13,35 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 300px;
+    width: 450px;
+}
+
+h1 {
+    text-align: center;
+    color: #1e293b;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    font-size: 14px;
+    color: #334155;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 2px solid #cbd5e1;
+    font-size: 14px;
+    transition: border 0.2s;
+}
+
+input:focus,
+select:focus {
+    border-color: #681e77;
+    outline:none;
 }
